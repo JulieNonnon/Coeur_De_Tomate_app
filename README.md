@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Notes commande
+
+ng new nomDuProjet --no-standalone: créé un projet sans les spécificités standalone d'Angular 17
+nmp install: installe les modules
+ng g c dossierComponents/nomComposant: créé le dossier components avec un nouveau composant
+ng g c dossierPages/nomComposantPage: créé le dossier pages avec un nouveau composant page
+ng g s dossierServices/nomService: créé le dossier servicess avec un nouveau service
+ng serve : lance application
