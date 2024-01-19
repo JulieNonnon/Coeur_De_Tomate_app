@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    width: 100%; /* Largeur de l'écran PC */
+    margin: 0 auto; /* Centrer le contenu sur l'écran */
+    background-color: #fefefe;
+  }
+  
+  /* Media query pour les écrans mobiles */
+  @media only screen and (max-width: 430px) {
+    body {
+      width: 100%; /* Utiliser toute la largeur de l'écran pour les mobiles */
+      background-color: aquamarine;
+    }
+  }
+
+
+
+  /* Styles généraux pour le responsive design */
+  img, video {
+    max-width: 100%; /* Les images et vidéos ne dépasseront pas la largeur du conteneur parent */
+    height: auto; /* Garantit que les images ne seront pas déformées */
+  }

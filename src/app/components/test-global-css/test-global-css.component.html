@@ -1,0 +1,95 @@
+<h2>Test Responsive Header</h2>
+
+<div class="testContainerHeader">
+
+    <!-- 1er compartiment -->
+
+    <div class="info"> bloc info </div>
+
+    <!-- 2ème compartiment -->
+    
+    <div class="main">
+
+        <!-- Menu Burger Responsive -->
+        <button class="burgerMenuBtn" (click)="toggleMenu()" *ngIf="!isDesktopView">☰</button>
+        <div class="burger-menu" *ngIf="!isDesktopView && !showBurgerMenu">
+            <button class="burgerMenuBtn" (click)="toggleMenu()" *ngIf="!isDesktopView">X</button>
+            <ul class="flexBurgerMenu">
+                <li>Accueil</li>
+                <li>Produit</li>
+                <li>A propos</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+
+        <div class="logo"> espace logo </div>
+        <div class="search" *ngIf="isDesktopView"> espace search </div>
+        <div class="icons">
+            <div class="icon-account"> espace account </div>
+            <div class="icon-cart"> espace cart </div>
+        </div>
+    </div>
+
+    <!-- 3ème compartiment -->
+
+    <nav class="navHeader" *ngIf="isDesktopView">
+        <ul>
+            <li>Accueil</li>
+            <li>Produit</li>
+            <li>A propos</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="searchMob" *ngIf="!isDesktopView"> espace search mobile</div>
+    
+</div>
+
+<h2>Test Responsive Footer</h2>
+
+<div class="testContainerFooter">
+
+    <div class="flexFooter">
+
+    <!-- 1er compartiment /logo -->
+        <div class="logoBloc">
+            <div> espace logo </div>
+        </div>
+
+    <!-- 2ème compartiment / navigation-->
+        <div class="navBloc">
+            <h3>Navigation</h3>
+            <nav class="navFooter">
+                <ul>
+                    <li>Accueil</li>
+                    <li>Produit</li>
+                    <li>A propos</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+
+    <!-- 3ème compartiment / legal -->
+        <div class="legalBloc">    
+            <h3>Légal</h3>
+            <nav class="legalFooter">
+                <ul>
+                    <li>CGV</li>
+                    <li>Mentions Légales</li>
+                    <li>Politique de Confidentialité</li>
+                    <li>Gestion de cookies</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+<!-- 4ème compartiment / cookies -->
+
+    <div class="cookieBloc">
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quisquam dolorum voluptates tenetur consequatur quis rerum, aspernatur iure animi quo accusamus odit, dolorem rem eaque neque illum possimus minima obcaecati!</p>
+        <button class="cookieParamBtn">Paramètres</button>
+    </div>
+
+
+
+</div>
