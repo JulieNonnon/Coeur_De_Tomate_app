@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+  }
+
+/* HEADER */
+
+.testContainerHeader {
+    border: solid 2px red;
+    /* height: 183px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info, .main, .nav{
+    display: flex;
+    border: solid 1px green ;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.info {
+    justify-content: center;
+}
+
+.main {
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.logo, .search, .icons {
+    border: solid 1px blue;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon-account, .icon.cart{
+    border: solid 1px violet;
+}
+
+.navHeader {
+    justify-content:  center;
+}
+
+ul {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.searchMob {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+  }
+  
+.burgerMenuBtn {
+    display: none;
+  }
+
+
+  /* FOOTER */
+
+  .testContainerFooter{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexFooter {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logoBloc, .navBloc, .legalBloc, .cookieBloc {
+    border: solid 1px blue;
+    }
+
+  .navFooter ul{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .legalFooter ul{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cookieBloc {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/* CSS Responsive */
+
+@media only screen and (max-width: 430px) {
+    .testContainer {
+      width: 100%; /* Utiliser toute la largeur de l'écran pour les mobiles */
+      background-color: lightpink;
+    }
+  }
+
+@media (max-width:430px) {
+
+    .navHeader nav{
+        display: none;
+    }
+
+    .searchMob{
+        display: block;
+    }
+
+    .burger-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+    .flexBurgerMenu {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .burgerMenuBtn {
+        display: block;
+      }
+
+    .flexFooter {
+        flex-direction: column;
+      }
+
+}
+
