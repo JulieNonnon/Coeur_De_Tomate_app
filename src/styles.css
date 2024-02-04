@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --color-header1: #DE3A30;
+  --color-header2: #B72027;
+  --color-footer: #382E2E;
+  --color-button: #97B56B;
+  --color-deliveryInfo: #E5CA5F;
+  --color-card: #D9D9D9;
+}
 
 body {
     width: 100%; /* Largeur de l'écran PC */
@@ -21,3 +29,5 @@ body {
     max-width: 100%; /* Les images et vidéos ne dépasseront pas la largeur du conteneur parent */
     height: auto; /* Garantit que les images ne seront pas déformées */
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
