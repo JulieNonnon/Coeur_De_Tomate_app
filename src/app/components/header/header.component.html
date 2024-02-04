@@ -1,0 +1,64 @@
+<div class="containerHeader">
+
+    <!-- 1er compartiment -->
+
+    <div class="info"> Dernier ajout: graines de tomate Peau de Pêche 🍑 </div>
+
+    <!-- 2ème compartiment -->
+    
+    <div class="main">
+
+        <!-- Menu Burger Responsive -->
+        <button class="burgerMenuBtn" (click)="toggleMenu()" *ngIf="!isDesktopView"><span class="material-icons md-48">menu</span></button>
+        <div class="burger-menu" *ngIf="!isDesktopView && !showBurgerMenu">
+            <button class="burgerMenuBtn" (click)="toggleMenu()" *ngIf="!isDesktopView"><span class="material-icons md-48">close</span></button>
+            <ul class="flexBurgerMenu">
+                <li>Accueil</li>
+                <li>Produit</li>
+                <li>A propos</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <!-- logo -->
+        <div class="logo"> <img src="assets/img/logo titre couleur.png" alt="Logo Coeur de Tomate"> </div>
+        <div class="logoMob" *ngIf="!isDesktopView"> <img src="assets/img/logo couleur.png" alt="Logo Coeur de Tomate"> </div>
+        
+        <!-- recherche -->
+        <div class="search" *ngIf="isDesktopView"> 
+        
+            <form (ngSubmit)="onSubmit()">
+                <input type="text" [(ngModel)]="searchTerm" name="searchTerm" placeholder="Rechercher..." />
+                <button type="submit"><span class="material-icons md-48">search</span></button>
+            </form>
+
+        </div>
+        
+        <!-- icons -->
+        <div class="icons">
+            <div class="icon-account"> <span class="material-icons md-48">person</span></div>
+            <div class="icon-cart"> <span class="material-icons md-48">shopping_cart</span> </div>
+            
+        </div>
+
+    </div>
+
+    <!-- 3ème compartiment -->
+    <div class="navigation">
+        <nav class="navHeader" *ngIf="isDesktopView">
+            <ul>
+                <li>Accueil</li>
+                <li>Produit</li>
+                <li>A propos</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="searchMob" *ngIf="!isDesktopView"> 
+            <form (ngSubmit)="onSubmit()">
+                <input type="text" [(ngModel)]="searchTerm" name="searchTerm" placeholder="Rechercher..." />
+                <button type="submit"><span class="material-icons md-48">search</span></button>
+            </form>
+        </div>
+    </div>
+    
+</div>
