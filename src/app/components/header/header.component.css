@@ -75,6 +75,20 @@ ul {
     list-style-type: none;
 }
 
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li a.active {
+    font-weight: bold;
+}
+
 .searchMob {
     display: none;
 }

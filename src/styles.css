@@ -6,6 +6,7 @@
   --color-button: #97B56B;
   --color-deliveryInfo: #E5CA5F;
   --color-card: #D9D9D9;
+  --color-title: #B72027;
 }
 
 body {
@@ -13,7 +14,16 @@ body {
     margin: 0 auto; /* Centrer le contenu sur l'écran */
     background-color: #fefefe;
   }
-  
+
+h1, h2, h3 {
+  font-family: "Lora", serif;
+}
+
+p, button {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+
   /* Media query pour les écrans mobiles */
   @media only screen and (max-width: 430px) {
     body {

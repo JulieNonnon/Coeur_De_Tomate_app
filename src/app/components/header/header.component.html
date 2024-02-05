@@ -13,7 +13,7 @@
         <div class="burger-menu" *ngIf="!isDesktopView && !showBurgerMenu">
             <button class="burgerMenuBtn" (click)="toggleMenu()" *ngIf="!isDesktopView"><span class="material-icons md-48">close</span></button>
             <ul class="flexBurgerMenu">
-                <li>Accueil</li>
+                <li><a routerLink="/" routerLinkActive="active">Accueil</a></li>
                 <li>Produit</li>
                 <li>A propos</li>
                 <li>Contact</li>
@@ -47,7 +47,7 @@
     <div class="navigation">
         <nav class="navHeader" *ngIf="isDesktopView">
             <ul>
-                <li>Accueil</li>
+                <li><a routerLink="/" routerLinkActive="active">Accueil</a></li>
                 <li>Produit</li>
                 <li>A propos</li>
                 <li>Contact</li>
