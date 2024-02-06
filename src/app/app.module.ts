@@ -8,7 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './pages/home/home.component';
-import { Error404Component } from './pages/error404/error404.component'
+import { Error404Component } from './pages/error404/error404.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { Error404Component } from './pages/error404/error404.component'
     HeaderComponent,
     HomeComponent,
     Error404Component,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
