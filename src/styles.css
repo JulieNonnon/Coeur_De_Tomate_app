@@ -12,7 +12,9 @@
 body {
     width: 100%; /* Largeur de l'écran PC */
     margin: 0 auto; /* Centrer le contenu sur l'écran */
+    padding: 0;
     background-color: #fefefe;
+    overflow-x: hidden; /* Pour empêcher la barre de défilement horizontale */
   }
 
 h1, h2, h3 {

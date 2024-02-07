@@ -10,7 +10,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './pages/home/home.component';
 import { Error404Component } from './pages/error404/error404.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ButtonComponent } from './reusables/button/button.component'
+import { ButtonComponent } from './reusables/button/button.component';
+import { BannerComponent } from './reusables/banner/banner.component'
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ButtonComponent } from './reusables/button/button.component'
     Error404Component,
     FooterComponent,
     ButtonComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
