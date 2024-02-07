@@ -13,16 +13,16 @@
         <div class="burger-menu" *ngIf="!isDesktopView && !showBurgerMenu">
             <button class="burgerMenuBtn" (click)="toggleMenu()" *ngIf="!isDesktopView"><span class="material-icons md-48">close</span></button>
             <ul class="flexBurgerMenu">
-                <li><a routerLink="/" routerLinkActive="active">Accueil</a></li>
-                <li>Produit</li>
-                <li>A propos</li>
-                <li>Contact</li>
+                <li><a routerLink="/">Accueil</a></li>
+                <li><a routerLink="/all-categories">Produit</a></li>
+                <li><a routerLink="/error404">A propos</a></li>
+                <li><a routerLink="/error404">Contact</a></li>
             </ul>
         </div>
 
         <!-- logo -->
-        <div class="logo"> <img src="assets/img/logo titre couleur.png" alt="Logo Coeur de Tomate"> </div>
-        <div class="logoMob" *ngIf="!isDesktopView"> <img src="assets/img/logo couleur.png" alt="Logo Coeur de Tomate"> </div>
+        <div class="logo"> <a routerLink="/"><img src="assets/img/logo titre couleur.png" alt="Logo Coeur de Tomate"></a> </div>
+        <div class="logoMob" *ngIf="!isDesktopView"> <a routerLink="/"><img src="assets/img/logo couleur.png" alt="Logo Coeur de Tomate"></a> </div>
         
         <!-- recherche -->
         <div class="search" *ngIf="isDesktopView"> 
@@ -37,7 +37,7 @@
         <!-- icons -->
         <div class="icons">
             <div class="icon-account"> <span class="material-icons md-48">person</span></div>
-            <div class="icon-cart"> <span class="material-icons md-48">shopping_cart</span> </div>
+            <div class="icon-cart"> <a routerLink="/cart"><span class="material-icons md-48">shopping_cart</span> </a></div>
             
         </div>
 
@@ -47,10 +47,10 @@
     <div class="navigation">
         <nav class="navHeader" *ngIf="isDesktopView">
             <ul>
-                <li><a routerLink="/" routerLinkActive="active">Accueil</a></li>
-                <li>Produit</li>
-                <li>A propos</li>
-                <li>Contact</li>
+                <li><a routerLink="/">Accueil</a></li>
+                <li><a routerLink="/all-categories">Produit</a></li>
+                <li><a routerLink="/error404">A propos</a></li>
+                <li><a routerLink="/error404">Contact</a></li>
             </ul>
         </nav>
         <div class="searchMob" *ngIf="!isDesktopView"> 

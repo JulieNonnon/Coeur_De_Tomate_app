@@ -11,10 +11,6 @@
     padding: 5%;
   }
 
-/* .logoBloc, .navBloc, .legalBloc, .cookieBloc {
-    border: solid 1px blue;
-    } */
-
 .navBloc, .legalBloc{
     border: solid 1px blue;
     }
@@ -40,6 +36,16 @@ h3 {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+  }
+
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  li a:hover {
+      cursor: pointer;
+      font-weight: bold;
   }
 
 .cookieBloc {
