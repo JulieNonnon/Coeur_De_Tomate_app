@@ -1,0 +1,39 @@
+.bannerPage {
+    position: relative;
+    width: 100%;
+    height: 40vw; /* permet à la hauteur de s'ajuster automatiquement en fonction de la largeur de l'image */
+    background-size: cover; /* fait en sorte que l'image de fond couvre toute la zone de la bannière */
+    background-position: center; /* centre l'image de fond horizontalement */
+    /* border: 1px solid blue; */
+}
+  
+.bannerPage h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* couleur de fond avec une opacité de 0.5 */
+    padding: 20px; /* ajustez le padding selon vos besoins */
+    margin: 0; /* supprimez les marges par défaut du titre */
+    /* font-size: 36px; */
+  }
+
+    /* MOBILE */
+
+@media only screen and (max-width: 430px) {
+    .containerFooter {
+          width: 100%; /* Utiliser toute la largeur de l'écran pour les mobiles */
+        }
+    }
+    
+@media (max-width:430px) {
+    
+    .bannerPage h1 {
+        font-size: 22px;
+        padding: 10px;
+        }
+
+    }
+    
+    
