@@ -1,9 +1,11 @@
-<div class="errorTitle">
-    <h1>Erreur</h1>
-    <h2>4<div class="floatingTomato">🍅</div>4</h2>
-</div>
+<div class="containerError404">
+    <div class="errorTitle">
+        <h1>Erreur</h1>
+        <h2>4<div class="floatingTomato">🍅</div>4</h2>
+    </div>
 
-<div class="errorText">
-    <p>Le contenu recherché n'existe pas, nous vous invitons à reprendre votre navigation depuis notre page d'accueil :</p>
-    <p> [ placeholder button component ] </p>
+    <div class="errorText">
+        <p>Le contenu recherché n'existe pas, nous vous invitons à reprendre votre navigation depuis notre page d'accueil :</p>
+        <app-button class="backToHomeBtn" [text]="'Retour à accueil'" [link]="'/'"></app-button>
+    </div>
 </div>
