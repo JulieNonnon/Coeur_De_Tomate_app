@@ -1,0 +1,13 @@
+.reusableButton {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-button);
+    padding: 10px 20px;
+}
+
+a .reusableButton {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
