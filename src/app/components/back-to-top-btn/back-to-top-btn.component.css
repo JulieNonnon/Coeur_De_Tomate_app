@@ -1,0 +1,13 @@
+/* Le bouton sera initialement caché */
+.back-to-top-btn {
+    position: fixed;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-deliveryInfo);
+    height: 50px;
+    width: 50px;
+    bottom: 60px;
+    right: 20px;
+    cursor: pointer;
+    /* display: none;  */
+  }

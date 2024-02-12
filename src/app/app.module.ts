@@ -16,7 +16,8 @@ import { AllCategoriesComponent } from './pages/all-categories/all-categories.co
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
-import { OrderSummaryComponent } from './pages/order-summary/order-summary.component'
+import { OrderSummaryComponent } from './pages/order-summary/order-summary.component';
+import { BackToTopBtnComponent } from './components/back-to-top-btn/back-to-top-btn.component'
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { OrderSummaryComponent } from './pages/order-summary/order-summary.compo
     CartComponent,
     CheckoutComponent,
     OrderSummaryComponent,
+    BackToTopBtnComponent,
   ],
   imports: [
     BrowserModule,
