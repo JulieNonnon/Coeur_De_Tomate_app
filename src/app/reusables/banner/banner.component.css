@@ -11,6 +11,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    font-size: clamp(22px, 5vw, 32px);
     width: 100%;
     color: white;
     background-color: rgba(0, 0, 0, 0.5); /* couleur de fond avec une opacité de 0.5 */
