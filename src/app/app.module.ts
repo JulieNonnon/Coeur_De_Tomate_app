@@ -18,7 +18,8 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { OrderSummaryComponent } from './pages/order-summary/order-summary.component';
 import { BackToTopBtnComponent } from './components/back-to-top-btn/back-to-top-btn.component';
-import { ProductCardComponent } from './reusables/product-card/product-card.component'
+import { ProductCardComponent } from './reusables/product-card/product-card.component';
+import { DeliveryInfosComponent } from './components/delivery-infos/delivery-infos.component'
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ProductCardComponent } from './reusables/product-card/product-card.comp
     OrderSummaryComponent,
     BackToTopBtnComponent,
     ProductCardComponent,
+    DeliveryInfosComponent,
   ],
   imports: [
     BrowserModule,

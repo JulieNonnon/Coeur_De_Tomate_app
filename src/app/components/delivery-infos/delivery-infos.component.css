@@ -1,0 +1,40 @@
+.deliveryInfosContainer{
+    gap: 20px;
+    display: flex;
+    margin: 5% 10%;
+}
+
+.infoBloc {
+    border-radius: 10px;
+    height: 25vh; /* 50% de la hauteur de la vue (viewport) */
+    width: 80vw; /* 90% de la largeur de la vue (viewport) */
+    padding: 2%;
+    background-color: var(--color-deliveryInfo);
+    overflow: hidden;
+
+  }
+
+h3 {
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+p {
+    font-size: clamp(12px, 2vw, 18px);
+}
+
+@media (max-width:430px) {
+
+    .deliveryInfosContainer{
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+
+    }
+
+    .infoBloc {
+        padding: 5%;
+        width: 60vw;
+        height: 20vh;
+    }
+
+}
