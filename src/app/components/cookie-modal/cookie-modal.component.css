@@ -1,0 +1,45 @@
+.mat-dialog-container {
+    border-radius: 20px;
+}
+
+h3 {
+    color: var(--color-title);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cookieFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5% 10px;
+}
+
+.consentBtns {
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cookieFlex p {
+    text-align: justify;
+  }
+
+/* Floating Logo: */
+
+@keyframes flotter {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .cookieFlex img {
+    animation: flotter 2s ease-in-out infinite;
+  }
