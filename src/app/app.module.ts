@@ -19,7 +19,9 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { OrderSummaryComponent } from './pages/order-summary/order-summary.component';
 import { BackToTopBtnComponent } from './components/back-to-top-btn/back-to-top-btn.component';
 import { ProductCardComponent } from './reusables/product-card/product-card.component';
-import { DeliveryInfosComponent } from './components/delivery-infos/delivery-infos.component'
+import { DeliveryInfosComponent } from './components/delivery-infos/delivery-infos.component';
+import { CookieModalComponent } from './components/cookie-modal/cookie-modal.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -39,12 +41,14 @@ import { DeliveryInfosComponent } from './components/delivery-infos/delivery-inf
     BackToTopBtnComponent,
     ProductCardComponent,
     DeliveryInfosComponent,
+    CookieModalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    MatIconModule
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,22 @@
+
+
+    <!-- <button mat-button (click)="close()"><span class="material-icons md-48">close</span></button> -->
+
+    <div class="cookieFlex">
+
+        <img src="assets/img/logo couleur.png" alt="Logo Coeur de Tomate" width="20%" height="20%">
+        <h3>Gestion des cookies</h3>
+        <p>Coeur de Tomate utilise des cookies pour améliorer votre expérience utilisateur et pour analyser le trafic.
+        Les cookies sont de petits fichiers texte qui peuvent être utilisés par les sites web pour rendre l'expérience utilisateur plus efficace. 
+        <br><br>
+        En accord avec la réglementation RGPD, nous respectons votre vie privée et nous vous donnons le contrôle sur les cookies que vous acceptez ou refusez.</p>
+
+        <div class="consentBtns">
+            <app-button mat-button (click)="acceptAllCookies()" (click)="close()" [text]="'Accepter'"></app-button>
+            <app-button mat-button (click)="rejectAllCookies()" (click)="close()" [text]="'Refuser'"></app-button>
+            <app-button (click)="close()" [text]="'Plus d`infos'"></app-button>
+        </div>
+
+    </div>
+  
+
