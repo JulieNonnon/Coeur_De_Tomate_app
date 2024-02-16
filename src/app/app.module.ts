@@ -21,7 +21,8 @@ import { BackToTopBtnComponent } from './components/back-to-top-btn/back-to-top-
 import { ProductCardComponent } from './reusables/product-card/product-card.component';
 import { DeliveryInfosComponent } from './components/delivery-infos/delivery-infos.component';
 import { CookieModalComponent } from './components/cookie-modal/cookie-modal.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CategoryCardComponent } from './reusables/category-card/category-card.component'
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     ProductCardComponent,
     DeliveryInfosComponent,
     CookieModalComponent,
+    CategoryCardComponent,
   ],
   imports: [
     BrowserModule,

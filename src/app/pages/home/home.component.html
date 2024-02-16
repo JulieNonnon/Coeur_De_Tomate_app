@@ -11,7 +11,16 @@
 
 <h2>Trouvez votre bonheur en parcourant la gamme de graines de tomates que nous proposons :</h2>
 
-<app-button class="accessShopBtn" [text]="'Acceder à notre boutique'" [link]="'/all-categories'"></app-button>
+<div class="categoryCardFlex">
+    <div class="homeCategoryCard">
+        <app-category-card title="Tomates format classique" [backgroundImageUrl]="'assets/img/home-category-classic.png'"></app-category-card>
+        <app-category-card title="Tomates format cocktail" [backgroundImageUrl]="'assets/img/home-category-cocktail.png'"></app-category-card>
+        <app-category-card title="Tomates format original" [backgroundImageUrl]="'assets/img/home-category-original.png'"></app-category-card>
+    </div>
+    <app-button class="accessShopBtn" [text]="'Acceder à notre boutique'" [link]="'/all-categories'"></app-button>
+</div>
+
+
 
 
 <img src="assets/img/home-aligned-tomatoes.png" alt="image de variétés de tomates">
