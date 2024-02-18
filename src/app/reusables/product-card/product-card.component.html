@@ -1,14 +1,12 @@
-<p>product-card works!</p>
-
 <div class="containerProductCard">
 
-    <img src="assets/img/logo couleur.png" alt="Placeholder Logo Coeur de Tomate">
+    <img src="{{ product?.img}}" alt="Placeholder Logo Coeur de Tomate">
 
-    <h3> (productTitle)</h3>
+    <h3> {{ product?.title }}</h3>
 
     <div class="detailPriceFlex">
-        <p class="p1">(productDetailBag)</p>
-        <p class="p2">(productPrice) €</p>
+        <p class="p1">{{ product?.smallDescription }}</p>
+        <div class="priceP"><p class="p2">{{ product?.price }} €</p></div>
     </div>
 
     <app-button class="addToCartBtn" [text]="'Ajouter au panier'"></app-button>

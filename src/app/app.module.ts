@@ -50,7 +50,7 @@ import { CategoryCardComponent } from './reusables/category-card/category-card.c
     AppRoutingModule,
     FormsModule,
     MatIconModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
