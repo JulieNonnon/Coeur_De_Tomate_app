@@ -1,5 +1,5 @@
 .containerProductCard {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
     background-color: var(--color-card);
     width: 15.625rem;
@@ -16,16 +16,20 @@
 }
 
 .detailPriceFlex {
-    gap: 20px;
+    gap: 10px;
     display: flex;
     justify-content: space-between;
     width: 85%;
-    padding: 0 10px;
-    border: 1px solid black;
+    padding: 0 5px;
+    /* border: 1px solid black; */
+}
+
+.priceP {
+    min-width: 54px;
 }
 
 .containerProductCard img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
     max-width: 100%;
     height: auto; 
@@ -39,6 +43,7 @@
 
 .p2 {
     font-weight: bold;
+    text-align: end;
 }
 
 .addToCartBtn {
