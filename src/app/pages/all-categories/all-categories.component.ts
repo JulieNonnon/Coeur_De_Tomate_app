@@ -9,12 +9,13 @@ import { Product } from '../../mocks/product.model';
 })
 export class AllCategoriesComponent implements OnInit {
 
-  products: Product[] | undefined;
+  products!: Product[];
 
   constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
     this.products = this.productService.getProducts();
+    console.log('Products:', this.products);
   }
 
 }

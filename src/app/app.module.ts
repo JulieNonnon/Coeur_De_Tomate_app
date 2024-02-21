@@ -23,6 +23,9 @@ import { DeliveryInfosComponent } from './components/delivery-infos/delivery-inf
 import { CookieModalComponent } from './components/cookie-modal/cookie-modal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CategoryCardComponent } from './reusables/category-card/category-card.component'
+import { MatGridListModule } from '@angular/material/grid-list';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +46,7 @@ import { CategoryCardComponent } from './reusables/category-card/category-card.c
     ProductCardComponent,
     DeliveryInfosComponent,
     CookieModalComponent,
-    CategoryCardComponent,
+    CategoryCardComponent
   ],
   imports: [
     BrowserModule,
@@ -51,6 +54,8 @@ import { CategoryCardComponent } from './reusables/category-card/category-card.c
     FormsModule,
     MatIconModule,
     BrowserAnimationsModule,
+    MatGridListModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
