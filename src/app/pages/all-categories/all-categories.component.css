@@ -1,0 +1,18 @@
+.allProductList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.productCardContainer {
+    flex: 0 0 calc(33.33% - 20px); /* 3 product-card per row on desktop */
+    margin: 10px; /* Adjust spacing between product-cards */
+}
+
+@media screen and (max-width: 768px) {
+    .productCardContainer {
+        flex: 0 0 calc(100% - 20px); /* 1 product-card per row on mobile */
+    }
+}

@@ -1,10 +1,9 @@
 <app-banner title="Nos graines de tomate" [backgroundImageUrl]="'assets/img/banner-all-categories.png'"></app-banner>
 
-<p> CONTENU PAGE ALL-CATEGORIES</p>
+<div fxLayout="row" fxLayoutAlign="center">
 
 <div class="allProductList">
-    <div *ngFor="let item of products">
+    <div class="productCardContainer" *ngFor="let item of products">
         <app-product-card [product]="item"></app-product-card>
     </div>
 </div>
-
