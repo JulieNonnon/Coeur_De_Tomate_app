@@ -25,6 +25,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CategoryCardComponent } from './reusables/category-card/category-card.component'
 import { MatGridListModule } from '@angular/material/grid-list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ProductCardComponent,
     DeliveryInfosComponent,
     CookieModalComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    LegalCgvComponent
   ],
   imports: [
     BrowserModule,
