@@ -26,6 +26,7 @@ import { CategoryCardComponent } from './reusables/category-card/category-card.c
 import { MatGridListModule } from '@angular/material/grid-list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
+import { LegalPrivacyPolicyComponent } from './pages/legal-privacy-policy/legal-privacy-policy.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
     DeliveryInfosComponent,
     CookieModalComponent,
     CategoryCardComponent,
-    LegalCgvComponent
+    LegalCgvComponent,
+    LegalPrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
