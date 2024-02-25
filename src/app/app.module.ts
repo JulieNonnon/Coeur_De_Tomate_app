@@ -28,6 +28,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
 import { LegalPrivacyPolicyComponent } from './pages/legal-privacy-policy/legal-privacy-policy.component';
 import { LegalLegalNoticeComponent } from './pages/legal-legal-notice/legal-legal-notice.component';
+import { LegalCookieManagementComponent } from './pages/legal-cookie-management/legal-cookie-management.component';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { LegalLegalNoticeComponent } from './pages/legal-legal-notice/legal-lega
     CategoryCardComponent,
     LegalCgvComponent,
     LegalPrivacyPolicyComponent,
-    LegalLegalNoticeComponent
+    LegalLegalNoticeComponent,
+    LegalCookieManagementComponent
   ],
   imports: [
     BrowserModule,
