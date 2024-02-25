@@ -14,7 +14,7 @@
         <div class="consentBtns">
             <app-button mat-button (click)="acceptAllCookies()" (click)="close()" [text]="'Accepter'"></app-button>
             <app-button mat-button (click)="rejectAllCookies()" (click)="close()" [text]="'Refuser'"></app-button>
-            <app-button (click)="close()" [text]="'Plus d`infos'"></app-button>
+            <a [routerLink]="['/legal-privacy-policy']" fragment="top"><app-button (click)="close()" [text]="'Plus d`infos'"></app-button></a>
         </div>
 
     </div>
