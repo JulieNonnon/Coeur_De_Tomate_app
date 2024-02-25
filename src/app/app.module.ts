@@ -27,6 +27,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
 import { LegalPrivacyPolicyComponent } from './pages/legal-privacy-policy/legal-privacy-policy.component';
+import { LegalLegalNoticeComponent } from './pages/legal-legal-notice/legal-legal-notice.component';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { LegalPrivacyPolicyComponent } from './pages/legal-privacy-policy/legal-
     CookieModalComponent,
     CategoryCardComponent,
     LegalCgvComponent,
-    LegalPrivacyPolicyComponent
+    LegalPrivacyPolicyComponent,
+    LegalLegalNoticeComponent
   ],
   imports: [
     BrowserModule,
