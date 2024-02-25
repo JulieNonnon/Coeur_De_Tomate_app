@@ -9,6 +9,7 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { OrderSummaryComponent } from './pages/order-summary/order-summary.component';
 import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
 import { LegalPrivacyPolicyComponent } from './pages/legal-privacy-policy/legal-privacy-policy.component';
+import { LegalLegalNoticeComponent } from './pages/legal-legal-notice/legal-legal-notice.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'checkout', component: CheckoutComponent },
   { path: 'order-summary', component: OrderSummaryComponent },
   { path: 'legal-privacy-policy', component: LegalPrivacyPolicyComponent },
+  { path: 'legal-legal-notice', component: LegalLegalNoticeComponent },
   { path: 'legal-cgv', component: LegalCgvComponent },
   { path: 'error404', component: Error404Component },
   { path: '**', redirectTo: '/error404' }
