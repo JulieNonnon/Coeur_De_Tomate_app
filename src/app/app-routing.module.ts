@@ -7,6 +7,7 @@ import { ProductDetailsComponent } from './pages/product-details/product-details
 import { CartComponent } from './pages/cart/cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { OrderSummaryComponent } from './pages/order-summary/order-summary.component';
+import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'cart', component: CartComponent },
   { path: 'checkout', component: CheckoutComponent },
   { path: 'order-summary', component: OrderSummaryComponent },
+  { path: 'legal-cgv', component: LegalCgvComponent },
   { path: 'error404', component: Error404Component },
   { path: '**', redirectTo: '/error404' }
 ];
