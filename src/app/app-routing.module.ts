@@ -10,6 +10,7 @@ import { OrderSummaryComponent } from './pages/order-summary/order-summary.compo
 import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
 import { LegalPrivacyPolicyComponent } from './pages/legal-privacy-policy/legal-privacy-policy.component';
 import { LegalLegalNoticeComponent } from './pages/legal-legal-notice/legal-legal-notice.component';
+import { LegalCookieManagementComponent } from './pages/legal-cookie-management/legal-cookie-management.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'order-summary', component: OrderSummaryComponent },
   { path: 'legal-privacy-policy', component: LegalPrivacyPolicyComponent },
   { path: 'legal-legal-notice', component: LegalLegalNoticeComponent },
+  { path: 'legal-cookie-management', component: LegalCookieManagementComponent },
   { path: 'legal-cgv', component: LegalCgvComponent },
   { path: 'error404', component: Error404Component },
   { path: '**', redirectTo: '/error404' }
