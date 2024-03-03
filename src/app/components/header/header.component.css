@@ -89,6 +89,17 @@ li a.active {
     font-weight: bold;
 }
 
+.search {
+    width: 40%;
+    /* border: solid 1px blue; */
+}
+
+.search input{
+    width: 100%;
+    /* border: solid 1px red; */
+}
+
+
 .searchMob {
     display: none;
 }
@@ -118,6 +129,10 @@ li a.active {
 
     .searchMob{
         display: block;
+    }
+
+    .searchMob input{
+        height: 25px;
     }
 
     .burger-menu {
