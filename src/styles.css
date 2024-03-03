@@ -17,7 +17,7 @@ body {
     overflow-x: hidden; /* Pour empêcher la barre de défilement horizontale */
   }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "Lora", serif;
   font-weight: bold;
   font-style: italic;

@@ -1,0 +1,13 @@
+.productDetailContainer {
+    margin: 10%;
+}
+
+h3 {
+    color: var(--color-title);
+}
+
+.productPitch {
+    background-color: var(--color-button);
+    border-radius: 20px;
+    padding: 10px 5%;
+}

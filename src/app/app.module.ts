@@ -29,6 +29,7 @@ import { LegalCgvComponent } from './pages/legal-cgv/legal-cgv.component';
 import { LegalPrivacyPolicyComponent } from './pages/legal-privacy-policy/legal-privacy-policy.component';
 import { LegalLegalNoticeComponent } from './pages/legal-legal-notice/legal-legal-notice.component';
 import { LegalCookieManagementComponent } from './pages/legal-cookie-management/legal-cookie-management.component';
+import { ProductDetailsCardComponent } from './reusables/product-details-card/product-details-card.component';
 
 
 @NgModule({
@@ -54,7 +55,8 @@ import { LegalCookieManagementComponent } from './pages/legal-cookie-management/
     LegalCgvComponent,
     LegalPrivacyPolicyComponent,
     LegalLegalNoticeComponent,
-    LegalCookieManagementComponent
+    LegalCookieManagementComponent,
+    ProductDetailsCardComponent
   ],
   imports: [
     BrowserModule,
