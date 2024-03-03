@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 15%;
+    /* border: 1px solid purple; */
     
 }
 
@@ -27,7 +29,7 @@ h1 {
     font-family: "Lora", serif;
     margin-top: 20px;
     margin-bottom: 0;
-    /* border: solid blue 1px; */
+    /* border: solid greenyellow 1px; */
 }
 
 h2 {
@@ -37,6 +39,12 @@ h2 {
     margin-top: 0;
     margin-bottom: 0;
     /* border: solid blue 1px;  */
+}
+
+img {
+    min-width: 200px;
+    height: 180px;
+    /* border: 1px blue solid; */
 }
 
 p {
@@ -83,6 +91,12 @@ p {
     
     p {
         font-size: 16px; 
+    }
+
+    img {
+        min-width: 100px;
+        height: 90px;
+        /* border: 1px blue solid; */
     }
 
 
