@@ -1,0 +1,54 @@
+.mainContainerProductDetailsCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: var(--color-card);
+}
+
+.containerProductDetailsCard {
+
+    gap: 20px;
+    display:flex;
+    padding: 15px;
+}
+
+.containerProductDetailsCard img {
+    border-radius: 20px;
+    max-width: 30%;
+
+    
+}
+
+.productInfoFlex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.counterAndButtonFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counterAndButtonFlexMobile{
+    display: none;
+    justify-content: space-around;
+}
+
+@media (max-width:430px) {
+    .containerProductDetailsCard img {
+        border-radius: 20px;
+        max-width: 50%;
+        height: 150px;
+    }
+
+    .counterAndButtonFlex {
+        display: none;
+    }
+
+    .counterAndButtonFlexMobile{
+        display: flex;
+    }
+}
