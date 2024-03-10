@@ -15,7 +15,7 @@ import { LegalCookieManagementComponent } from './pages/legal-cookie-management/
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'all-categories', component: AllCategoriesComponent },
-  { path: 'product-details', component: ProductDetailsComponent },
+  { path: 'product-details/:id', component: ProductDetailsComponent },
   { path: 'cart', component: CartComponent },
   { path: 'checkout', component: CheckoutComponent },
   { path: 'order-summary', component: OrderSummaryComponent },

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Product } from '../../mocks/product.model';
 
 @Component({
   selector: 'app-product-details-card',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './product-details-card.component.css'
 })
 export class ProductDetailsCardComponent {
+  @Input() product!: Product;
+
 
 }

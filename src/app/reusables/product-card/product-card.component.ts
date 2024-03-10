@@ -8,7 +8,7 @@ import { Product } from '../../mocks/product.model';
 })
 export class ProductCardComponent {
 
-  @Input() product: Product | undefined;
+  @Input() product!: Product;
 
   constructor() { }
 
