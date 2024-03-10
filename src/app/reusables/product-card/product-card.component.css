@@ -15,6 +15,10 @@
 
 }
 
+.containerProductCard:hover {
+    background-color: bisque;
+}
+
 .detailPriceFlex {
     gap: 10px;
     display: flex;
@@ -46,7 +50,7 @@
     text-align: end;
 }
 
-.addToCartBtn {
+.discoverBtn {
     margin: 15px 0;
 }
 

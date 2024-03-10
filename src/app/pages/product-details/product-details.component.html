@@ -1,8 +1,8 @@
-<app-banner title="Graines de [product-details/id]" [backgroundImageUrl]="'assets/img/banner-product-details.png'"></app-banner>
+<app-banner [title]="pageTitle" [backgroundImageUrl]="'assets/img/banner-product-details.png'"></app-banner>
 
 <div class="productDetailContainer">
 
-    <app-product-details-card></app-product-details-card>
+    <app-product-details-card [product]="product"></app-product-details-card>
 
     <br>
 
@@ -15,6 +15,11 @@
     <div class="productPitch">
         <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae iste obcaecati animi illum. Velit enim ad at ea? Non expedita soluta in quos impedit praesentium odit tempora unde labore magni.</h4>
     </div>
+
+    <h3>{{ product.title }}</h3>
+    <p>{{ product.smallDescription }}</p>
+    <p>{{ product.longDescription }}</p>
+    <p>{{ product.price }}</p>
 
 </div>
 

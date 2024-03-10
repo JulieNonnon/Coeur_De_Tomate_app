@@ -1,4 +1,5 @@
-<div class="containerProductCard">
+ <div class="containerProductCard">
+    <!-- <a routerLink="/product-details/{{product?.id}}"></a> -->
 
     <img src="{{ product?.img}}" alt="Placeholder Logo Coeur de Tomate">
 
@@ -9,6 +10,6 @@
         <div class="priceP"><p class="p2">{{ product?.price }} €</p></div>
     </div>
 
-    <app-button class="addToCartBtn" [text]="'Ajouter au panier'"></app-button>
+    <app-button class="discoverBtn" routerLink="/product-details/{{product?.id}}" [text]="'Découvrir'"></app-button>
 
 </div>
