@@ -1,15 +1,15 @@
  <div class="containerProductCard">
     <!-- <a routerLink="/product-details/{{product?.id}}"></a> -->
 
-    <img src="{{ product?.img}}" alt="Placeholder Logo Coeur de Tomate">
+    <img src="{{ product.img}}" alt="Placeholder Logo Coeur de Tomate">
 
-    <h3> {{ product?.title }}</h3>
+    <h3> {{ product.title }}</h3>
 
     <div class="detailPriceFlex">
-        <p class="p1">{{ product?.smallDescription }}</p>
-        <div class="priceP"><p class="p2">{{ product?.price }} €</p></div>
+        <p class="p1">{{ product.smallDescription }}</p>
+        <div class="priceP"><p class="p2">{{ product.price }} €</p></div>
     </div>
 
-    <app-button class="discoverBtn" routerLink="/product-details/{{product?.id}}" [text]="'Découvrir'"></app-button>
+    <app-button class="discoverBtn" routerLink="/product-details/{{product.id}}" [text]="'Découvrir'"></app-button>
 
 </div>
