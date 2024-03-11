@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Product } from '../mocks/product.model';
+import { Product } from '../../mocks/product.model';
 import { Router } from '@angular/router';
 
 @Injectable({
