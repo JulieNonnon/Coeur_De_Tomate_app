@@ -12,11 +12,12 @@
     align-items: center;
     padding: 15px 5px  0;
     margin: 15px 10px;
+    transition: background-color 0.3s ease;
 
 }
 
 .containerProductCard:hover {
-    background-color: bisque;
+    background-color: rgb(178, 196, 178);
 }
 
 .detailPriceFlex {
