@@ -1,14 +1,18 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
+import { ProductService } from '../../services/product.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit{
 
   isDesktopView = true;
   showBurgerMenu = false;
+  lastProductTitle!: string;
+
+  constructor(private productService: ProductService) { }
 
 
   private checkScreenWidth(): void {
@@ -23,6 +27,9 @@ export class HeaderComponent {
 
   ngOnInit(): void {
     this.checkScreenWidth();
+    
+    const lastProduct = this.productService.getLastProduct();
+    this.lastProductTitle = lastProduct ? lastProduct.title : '';
   }
 
   toggleMenu(): void {
