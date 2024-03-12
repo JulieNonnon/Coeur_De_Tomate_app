@@ -1,0 +1,31 @@
+.compteur input, .compteur button {
+    font-weight: bolder;
+    border: #7E7E7E 2px solid;
+}
+
+.compteur input {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.compteur button {
+    width: 30px;
+    height: 34.5px;
+    background-color: #7E7E7E;
+    border: none;
+}
+
+.compteur button:hover {
+    cursor: pointer;
+}
+
+.btn-decr {
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-incr {
+    border-radius: 0 10px 10px 0;
+}
+
