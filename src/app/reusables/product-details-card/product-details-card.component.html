@@ -12,22 +12,18 @@
 
             <p class="largeDesc">{{ product.longDescription }}</p>
 
-            <p class="price"> {{ product.price }} €</p>
+            <p class="price"> {{ totalPrice }} €</p>
 
                 <div class="counterAndButtonFlex">
-
-                    <!-- insert a counter component --> <p>compteur</p>
+                    <app-counter [quantity]="productQuantity" (quantityUpdate)="updateQuantity($event)"></app-counter>
                     <app-button class="addToCartBtn" [text]="'Ajouter au panier'"></app-button>
-
                 </div>
-
         </div>
- 
     </div>
 
     <div class="counterAndButtonFlexMobile">
 
-        <!-- insert a counter component --> <p>compteur</p>
+        <app-counter [quantity]="productQuantity" (quantityUpdate)="updateQuantity($event)"></app-counter>
         <app-button class="addToCartBtn" [text]="'Ajouter au panier'"></app-button>
 
     </div>
